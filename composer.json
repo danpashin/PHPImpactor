@@ -1,0 +1,24 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "rodneyrehm/plist",
+                "version": "2.0.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/TECLIB/CFPropertyList",
+                    "reference": "develop"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "CFPropertyList\\": "src/CFPropertyList/"
+                    }
+                }
+            }
+        }
+    ],
+    "require": {
+        "rodneyrehm/plist": "^2.0.1"
+    }
+}
